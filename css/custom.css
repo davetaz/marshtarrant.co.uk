@@ -273,3 +273,87 @@ h1.double:after {
         margin-bottom: 70px;
     }
 }
+@media only screen and (max-width : 480px) {
+    .std-border1 {
+        margin-top:20px;
+        border: 1px solid #66023C;
+        border-radius: 50%;
+    }
+    .std-border2 {
+        padding: 5px;
+        margin: 5px;
+        border: 2px dashed #00868B;
+        border-radius: 50%;
+    }
+    .std-date {
+        font-size: 1.4em;   
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    .std-logo {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        max-height: 50px;
+    }
+    .std-location1 {
+        font-size: 1em;
+    }
+    .std-location2 {
+        font-size: 1em;
+        margin-bottom: 20px;
+        position: relative;
+        top: -4px;
+    }
+    .banner2 {
+        min-height: 250px;
+    }
+    .banner {
+        top: 50px;
+        margin-bottom: 70px;
+    }
+    .bottom-section h3 {
+        font-size: 1.6em;
+    }
+}
+@media only screen and (max-width : 320px) {
+    .std-border1 {
+        margin-top:8px;
+        border: 1px solid #66023C;
+        border-radius: 50%;
+    }
+    .std-border2 {
+        padding: 5px;
+        margin: 5px;
+        border: 2px dashed #00868B;
+        border-radius: 50%;
+    }
+    .std-date {
+        font-size: 1.4em;   
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    .std-logo {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        max-height: 50px;
+    }
+    .std-location1 {
+        font-size: 0.4em;
+    }
+    .std-location2 {
+        font-size: 0.4em;
+        margin-bottom: 5px;
+        position: relative;
+        top: -10px;
+    }
+    .banner2 {
+        min-height: 220px;
+    }
+    .banner {
+        top: 40px;
+        margin-bottom: 70px;
+    }
+    .bottom-section h3 {
+        font-size: 1.4em;
+    }
+}
