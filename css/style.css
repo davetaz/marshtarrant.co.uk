@@ -737,7 +737,7 @@ margin-right:0%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   text-align: center;
-  padding: 25px 10px;
+  padding: 20px 10px;
 }
 .event-year {
   color:#fff;
@@ -1569,7 +1569,6 @@ ul.contact-grids h5{
 	  font-size: 3.7em;
 	}
 	.bottom-section h3 {
-	  font-size: 3.7em;
 	  margin: 13% auto;
 	}
 	.moments h3,.contact h3 {
@@ -1629,7 +1628,6 @@ ul.contact-grids h5{
 	  font-size: 3.6em;
 	}
 	.bottom-section h3 {
-	  font-size: 3.6em;
 	  margin: 13% auto;
 	}
 	.moments h3,.contact h3 {
@@ -1724,7 +1722,7 @@ ul.contact-grids h5{
 	  bottom: -53px;
 	  width: 80px;
 	  height: 80px;
-	  padding: 25px 10px;
+	  padding: 20px 10px;
 	}
 	.event-section {
 	  padding: 3em 0 7em 0;
@@ -1794,7 +1792,6 @@ ul.contact-grids h5{
 	  float: left;
 	}
 	.bottom-section h3 {
-	  font-size: 3.5em;
 	  margin: 13% auto;
 	}
 	.contact,.people-section   {
@@ -1916,10 +1913,9 @@ ul.contact-grids h5{
 	  bottom: -53px;
 	  width: 80px;
 	  height: 80px;
-	  padding: 25px 10px;
+	  padding: 20px 10px;
 	}
 	.bottom-section h3 {
-	  font-size: 3.2em;
 	  margin: 13% auto;
 	}
 	.bottom-section {
@@ -1958,7 +1954,6 @@ ul.contact-grids h5{
 	  padding: 2em 0px 6em 0;
 	}
 	.bottom-section h3 {
-	  font-size: 3.1em;
 	  margin: 13% auto;
 	}
 	.ch-grid {
@@ -2082,7 +2077,7 @@ ul.contact-grids h5{
 	  bottom: -53px;
 	  width: 80px;
 	  height: 80px;
-	  padding: 25px 10px;
+	  padding: 20px 10px;
 	}
 	.callbacks_tabs {
 	  bottom: -13%;
@@ -2122,7 +2117,6 @@ ul.contact-grids h5{
 	  left: 17px;
 	}
 	.bottom-section h3 {
-	  font-size: 2.8em;
 	  margin: 11% auto 0;
 	}
 	.botton1 {
@@ -2247,13 +2241,12 @@ ul.contact-grids h5{
 	  bottom: -53px;
 	  width: 80px;
 	  height: 80px;
-	  padding: 25px 10px;
+	  padding: 20px 10px;
 	}
 	.event-grid.lost {
 	  margin: 2% 0 27% 0%;
 	}
 	.bottom-section h3 {
-	  font-size: 2em;
 	  margin: 11% auto 0;
 	}
 	.bottom-section {
