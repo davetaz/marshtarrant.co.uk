@@ -22,12 +22,13 @@
     margin-top:90px;
     border: 2px solid #66023C;
     border-radius: 50%;
-    background-color: rgba(0,134,139,0.55);
+    /*background-color: rgba(0,134,139,0.55);*/
+    background-color: rgba(255,255,255,0.55);
 }
 .std-border2 {
     padding: 10px;
     margin: 10px;
-    border: 3px dashed #fff;
+    border: 3px dashed #00868B;
     border-radius: 50%;
 }
 .std-date {
@@ -79,10 +80,8 @@
     width: 100%;
     position: absolute;   
     z-index: 0;
-    opacity: 0.5;
+    opacity: 0.8;
     min-height: 575px;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
 }
 .logo {
     position: relative;
