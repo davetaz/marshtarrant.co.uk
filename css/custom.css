@@ -375,3 +375,38 @@ h1.double:after {
         font-size: 1.4em;
     }
 }
+#nanoGallery1 {
+    padding-top: 60px;
+}
+#nanoGallery1 .folderHome {
+    display: none;
+}
+#nanoGallery1 .separator {
+    display: none;
+}
+#nanoGallery1 .oneFolder {
+    font-family: 'Niconne', cursive;
+    color: #00868B;
+    font-size: 4em;
+    font-weight: 400;
+}
+#nanoGallery1 .nanoGalleryNavigationbarContainer {
+    min-height: 4em;
+    max-height: 100px;
+    margin: 0px;
+    padding: 10px;
+}
+#nanoGallery1 .nanoGalleryNavigationbar {
+    border: 0px;
+}
+#nanoGallery1 .nanoGalleryBreadcrumb {
+    text-align: center;
+}
+#nanoGallery1 .nanoGalleryBreadcrumb .folder:before {
+    content: '';
+    margin:0px;
+    width: 0px;
+}
+#nanoGallery1 .nanoGalleryLBarOff {
+    padding-top: 30px;
+}
