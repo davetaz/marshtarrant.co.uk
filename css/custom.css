@@ -410,3 +410,12 @@ h1.double:after {
 #nanoGallery1 .nanoGalleryLBarOff {
     padding-top: 30px;
 }
+#nanoGallery1 .imgContainer {
+    margin: 0px;
+    padding: 5px;
+    background: transparent;
+}
+#nanoGallery1 .nanoGalleryThumbnailContainer {
+    background-color: #eee;
+    border: none;
+}
