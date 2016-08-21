@@ -141,6 +141,16 @@ h1.double:after {
     width: 100%;
     z-index: -1;
 }
+.credit {
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+    width: 100%;
+}
+.credit a {
+    color: white;
+    text-decoration: underline;
+}
 @media only screen and (max-width : 1200px) {
     .banner2 {
          min-height: 530px;
@@ -290,6 +300,9 @@ h1.double:after {
     .bottom-section h3 {
         font-size: 1.8em;
     }
+    .credit {
+    	font-size: 0.6em;
+    }
 }
 @media only screen and (max-width : 480px) {
     .std-border1 {
@@ -332,6 +345,9 @@ h1.double:after {
     .bottom-section h3 {
         font-size: 1.4em;
     }
+    .credit {
+	font-size: 0.5em;
+    }
 }
 @media only screen and (max-width : 320px) {
     .std-border1 {
@@ -373,6 +389,9 @@ h1.double:after {
     }
     .bottom-section h3 {
         font-size: 1.4em;
+    }
+    .credit {
+	font-size: 0.4em;
     }
 }
 #nanoGallery1 {
