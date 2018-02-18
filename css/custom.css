@@ -438,3 +438,59 @@ h1.double:after {
     background-color: #eee;
     border: none;
 }
+.event-grid .img-responsive {
+    height: 240px;
+}
+.event-grid p {
+    padding: 0px;
+    padding-bottom: 2em;
+}
+.venue-section {
+    padding-top: 6em;
+    text-align: center;
+}
+.gifts-section {
+    margin-top: 6em;
+    padding: 4em 0;
+    background-color: #eee;
+}
+.itinerary-section  {
+    margin-top: 1em;
+    padding-bottom: 4em;
+}
+.itinerary-section table {
+    margin-top: 2em;
+    font-size: 1.2em;
+}
+.itinerary-section table td {
+    padding: 0.5em;
+}
+.itinerary-section .time {
+    color: #66023C;
+}
+.rsvp-section {
+    padding: 4em 0;
+    background-color: #eee;
+    text-align: center;
+}
+.section h2 {
+ font-family: 'Niconne', cursive;
+  color:#00868B;
+  font-size:4em;
+  font-weight:400;
+  text-align:center;
+}
+.section p {
+  font-size: 0.9em;
+  margin: 1% auto 0;
+  width: 75%;
+  line-height: 1.8em;
+  color: #2F3338;
+}
+.section h3 {
+  font-family: 'Niconne', cursive;
+  color: #00868B;
+  font-size: 4em;
+  font-weight: 400;
+  text-align: center;
+}
