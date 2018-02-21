@@ -7,12 +7,11 @@ $( document ).ready(function() {
 	}
 	/*
 	$.get('info2.raw.html', function(data) {
-		console.log('here');
 		var encrypted = CryptoJS.AES.encrypt(data, "");
   		//var decrypted = CryptoJS.AES.decrypt(data, myPassword);
   		document.getElementById("main").innerHTML = encrypted;
   	});
-  	*/
+  */
 });
 
 $( "#submit" ).click(function() {
