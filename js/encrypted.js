@@ -15,7 +15,7 @@ $( document ).ready(function() {
 });
 
 $( "#submit" ).click(function() {
-  var myPassword = $("#passkey").val();
+  var myPassword = $("#passkey").val().toUpperCase();
   localStorage.setItem("CMPassKey",myPassword);
   unlockPage(myPassword);
 });
@@ -32,7 +32,7 @@ function unlockPage(myPassword) {
   				var decrypted = CryptoJS.AES.decrypt(data, myPassword);
   				var output = decrypted.toString(CryptoJS.enc.Utf8);
   				document.getElementById("main").innerHTML = decrypted.toString(CryptoJS.enc.Utf8);
-  			} catch (err) { localStorage.removeItem("CMPassKey"); console.log(err); }
+  			} catch (err) { localStorage.removeItem("CMPassKey"); alert(err); }
   		});
   	}
   });
