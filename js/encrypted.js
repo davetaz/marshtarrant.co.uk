@@ -7,7 +7,7 @@ $( document ).ready(function() {
 	}
 	/*
 	$.get('info2.raw.html', function(data) {
-		var encrypted = CryptoJS.AES.encrypt(data, "");
+		  var encrypted = CryptoJS.AES.encrypt(data, "");
   		//var decrypted = CryptoJS.AES.decrypt(data, myPassword);
   		document.getElementById("main").innerHTML = encrypted;
   	});
@@ -32,7 +32,7 @@ function unlockPage(myPassword) {
   				var decrypted = CryptoJS.AES.decrypt(data, myPassword);
   				var output = decrypted.toString(CryptoJS.enc.Utf8);
   				document.getElementById("main").innerHTML = decrypted.toString(CryptoJS.enc.Utf8);
-  			} catch (err) { localStorage.removeItem("CMPassKey"); }
+  			} catch (err) { localStorage.removeItem("CMPassKey"); console.log(err); }
   		});
   	}
   });
