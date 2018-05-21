@@ -80,7 +80,6 @@
     width: 100%;
     position: absolute;   
     z-index: 0;
-    opacity: 0.8;
     min-height: 575px;
 }
 .logo {
@@ -438,6 +437,13 @@ h1.double:after {
     background-color: #eee;
     border: none;
 }
+.story-grid .img-responsive {
+    margin-left: auto;
+    margin-right: auto;
+}
+.story-grid h4 a {
+    color: #00868B;
+}
 .event-grid .img-responsive {
     height: 240px;
 }
@@ -493,4 +499,18 @@ h1.double:after {
   font-size: 4em;
   font-weight: 400;
   text-align: center;
+}
+.welcome-section {
+    background: #66023C;
+}
+.welcome-section h2 {
+    padding-top: 0.5em;
+    color: white;
+}
+.welcome-section p {
+    color: white;
+}
+.welcome-section a {
+    color: white;
+    text-decoration: underline;
 }
